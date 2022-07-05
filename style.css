@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
 
+li {
+  list-style: none;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "poppins", sans-serif;
   background: #f7f7f9;
@@ -336,18 +348,49 @@ body {
 .contact-content h1{
   padding: 0;
   margin: 0;
-  font-family: 'Poppins',sans-serif;
   font-weight: 700;
   font-size: 45px;
   color: #fff;
   text-align: center;
 }
 .contact-content p{
-  font-family: 'Poppins',sans-serif;
   font-weight: 300;
   font-size: 20px;
   color: #fff;
   text-align: center;
   line-height: 28px;
   letter-spacing: 0.01rem;
+}
+
+.form-sections {
+  margin-top: 2rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+  outline: none;
+}
+
+.contact-btn {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 16px;
+  color: #6070FF;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-btn:hover {
+  background-color: #6070FF;
+  color: #fff;
 }
