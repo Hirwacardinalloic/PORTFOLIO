@@ -321,3 +321,33 @@ body {
 .lang .lang-exp .no-1 span i {
   color: #acb7c3;
 }
+
+/* contact-form */
+
+.contact{
+  background:  #6070FF;
+  padding: 3rem;
+  padding-top: 5rem;
+  border-top-left-radius: 100px 70px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.contact-content h1{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+}
+.contact-content p{
+  font-family: 'Poppins',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 0.01rem;
+}
