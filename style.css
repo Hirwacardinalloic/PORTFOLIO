@@ -14,7 +14,7 @@ li {
 
 body {
   font-family: "poppins", sans-serif;
-  background: #f7f7f9;
+  background: #fff;
   margin: 0;
   height: 100vh;
 }
@@ -338,8 +338,11 @@ body {
 
 .contact{
   background-color:  #6070FF ;
-  background-image: url(/images/header-shapes-mobile.png) no-repeat ;
+  background-image: url(/images/header-shapes-mobile.png) ;
   
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2rem;
   padding: 3rem;
   padding-top: 5rem;
   border-top-left-radius: 100px 70px;
