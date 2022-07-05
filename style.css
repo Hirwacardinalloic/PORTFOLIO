@@ -336,12 +336,12 @@ body {
 
 /* contact-form */
 
-.contact{
-  background-color:  #6070FF ;
-  background-image: url(/images/contact-graph-2.png),url(/images/contact-graph-1.png),url(/images/contact-circle-1.png) ;
+.contact {
+  background-color: #6070ff;
+  background-image: url(/images/contact-graph-2.png), url(/images/contact-graph-1.png), url(/images/contact-circle-1.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 95px, 100px, 28px;
-  background-position:77% 95%,110% 3%,40% 10%;
+  background-position: 77% 95%, 110% 3%, 40% 10%;
   margin-top: 2rem;
   padding: 3rem;
   padding-top: 7rem;
@@ -350,7 +350,8 @@ body {
   flex-direction: column;
   align-content: center;
 }
-.contact-content h1{
+
+.contact-content h1 {
   padding: 0;
   margin: 0;
   font-weight: 700;
@@ -359,7 +360,8 @@ body {
   text-align: center;
   margin-bottom: 1rem;
 }
-.contact-content p{
+
+.contact-content p {
   font-weight: 300;
   font-size: 20px;
   color: #fff;
@@ -398,11 +400,11 @@ body {
 }
 
 .contact-btn:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
 }
 
-textarea::placeholder{
-  font-family: 'Poppins',sans-serif;
-  color: #B3BAC5;
+textarea::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: #b3bac5;
 }
