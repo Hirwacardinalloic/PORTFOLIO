@@ -337,7 +337,9 @@ body {
 /* contact-form */
 
 .contact{
-  background:  #6070FF;
+  background-color:  #6070FF ;
+  background-image: url(/images/header-shapes-mobile.png) no-repeat ;
+  
   padding: 3rem;
   padding-top: 5rem;
   border-top-left-radius: 100px 70px;
@@ -394,3 +396,4 @@ body {
   background-color: #6070FF;
   color: #fff;
 }
+
