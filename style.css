@@ -408,6 +408,6 @@ body {
 }
 
 textarea::placeholder {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #b3bac5;
 }
