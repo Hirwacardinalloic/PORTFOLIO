@@ -488,6 +488,13 @@ button:disabled {
     margin: 10px;
   }
 
+  .form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
   #name,
   #email,
   #messag {
@@ -507,9 +514,9 @@ button:disabled {
     align-items: center;
     width: 142px;
     height: 48px;
-    margin-left: 340px;
     margin-top: 10px;
     margin-bottom: 50px;
+    margin-left: 330px;
   }
 
   .text-area {
