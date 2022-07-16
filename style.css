@@ -504,10 +504,10 @@ button:disabled {
   }
 
   #clicked-btn {
-    align-self: center;
+    align-items: center;
     width: 142px;
     height: 48px;
-    margin-left: 350px;
+    margin-left: 340px;
     margin-top: 10px;
     margin-bottom: 50px;
   }
