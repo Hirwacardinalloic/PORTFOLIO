@@ -93,7 +93,7 @@ body {
 .lists {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 50%;
 }
 
 .lists-item {
@@ -500,10 +500,11 @@ button:disabled {
 
   #clicked-btn {
     align-self: center;
-    width: 30%;
-    margin-left: 190px;
+    margin-left: 350px;
     margin-top: 10px;
     margin-bottom: 50px;
+    width: 142px;
+    height: 48px;  
   }
 
   .text-area {
