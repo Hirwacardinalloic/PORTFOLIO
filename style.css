@@ -93,7 +93,7 @@ body {
 .lists {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
 }
 
 .lists-item {
@@ -161,10 +161,13 @@ button:disabled {
 
 .box-contain {
   border: 1px solid #7a869a;
-  width: 90%;
   margin: 12px auto;
   border-radius: 16px;
   background-color: #fff;
+  height: 496px;
+  width: 1256px;
+  left: 0;
+  top: 0;
 }
 
 .btno {
@@ -461,13 +464,15 @@ button:disabled {
   }
 
   .contact {
+    background-color: #6070ff;
+    background-image: url(/images/contact-graph-2.png), url(/images/contact-graph-1.png), url(/images/contact-circle-1.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 95px, 100px, 28px;
+    background-position: 77% 95%, 110% 3%, 40% 10%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-repeat: no-repeat;
-    background-size: 50% 100%;
-    background-position: right;
   }
 
   .contact-content {
@@ -500,11 +505,11 @@ button:disabled {
 
   #clicked-btn {
     align-self: center;
+    width: 142px;
+    height: 48px;
     margin-left: 350px;
     margin-top: 10px;
     margin-bottom: 50px;
-    width: 142px;
-    height: 48px;  
   }
 
   .text-area {
@@ -515,9 +520,5 @@ button:disabled {
     flex-direction: column;
     gap: 5px;
     justify-content: center;
-  }
-
-  footer {
-    background-image: url(./images/contact-deskk.png), url(./images/contact-blue.png);
   }
 }
