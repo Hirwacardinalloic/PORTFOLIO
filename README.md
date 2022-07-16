@@ -2,7 +2,7 @@
 
 ## Mobile-version-skeleton
 
-This project is about creating responsive Mobile-Version with html and css files .
+This project is about creating responsive Desktop-Version with html and css .
 
 ## Built With
 
@@ -26,22 +26,12 @@ To get a local copy up and running follow these simple example steps.
 - For anyone who wants to practice html5 or/and css3
 - For anyone who wants to create his own portfolio.
 
-## Contributors
+## Authors
 
 ## 👤 Loic Cardinal
 
 - GitHub: [@Hirwacardinalloic](https://github.com/Hirwacardinalloic)
 - Twitter: [@loicard](https://twitter.com/loicard)
-
-## 👤 Baraka Danny
-
-- GitHub: [@barakadanny](https://github.com/barakadanny)
-- Twitter: [@Barakadanny2](https://twitter.com/Barakadanny2)
-
-## 👤 Ayesha Arshad
-
-- GitHub: [@shella12](https://github.com/shella12)
-- Twitter: [@AyeshaArshad](https://twitter.com/AyeshaArshad45)
 
 ## 🤝 Contributing
 
